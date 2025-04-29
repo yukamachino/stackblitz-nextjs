@@ -1,0 +1,16 @@
+# robots.txt generated for https://mori-tt.github.io/corporate-design/
+# デプロイ前に BASE_URL を実際のドメインに変更してください
+
+# すべてのロボットに適用
+User-agent: *
+Allow: /
+
+# クロール除外ディレクトリの例（必要に応じて設定）
+# Disallow: /admin/
+# Disallow: /private/
+
+# ホスト
+Host: https://mori-tt.github.io/corporate-design/
+
+# サイトマップ
+Sitemap: https://mori-tt.github.io/corporate-design//sitemap.xml
