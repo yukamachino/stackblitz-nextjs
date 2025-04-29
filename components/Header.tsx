@@ -15,7 +15,7 @@ const Header = () => {
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <Link href="/" className="font-bold text-xl flex">
             <img
-              src="logo.svg"
+              src="/logo.svg"
               alt="Logo of 'DESIGN STUDIO'"
               width={30}
               height={30}
