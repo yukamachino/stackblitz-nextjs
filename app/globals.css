@@ -84,3 +84,20 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* 追記 */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Geist フォントを Vercel の CDN からロード */
+@import url("https://geist-fonts.vercel.app/css/geist.css");
+
+:root {
+  --font-geist-sans: "Geist", sans-serif;
+  --font-geist-mono: "Geist Mono", monospace;
+}
+
+body {
+  font-family: var(--font-geist-sans);
+}
